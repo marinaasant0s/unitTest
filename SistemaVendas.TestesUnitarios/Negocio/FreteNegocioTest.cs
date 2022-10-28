@@ -18,7 +18,7 @@ namespace SistemaVendas.TestesUnitarios
             Assert.Equal(0.00m, valorFrete);
         }
 
-        [Theory(DisplayName = "Deve calcular frete com distância maior que 5km e mnor que 15km com sucesso")]
+        [Theory(DisplayName = "Deve calcular frete com distância maior que 5km e menor que 15km com sucesso")]
         [InlineData(6)]
         [InlineData(7)]
         [InlineData(8)]
